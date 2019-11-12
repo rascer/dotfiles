@@ -1,0 +1,47 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+#Xft.hintstyle:              hintslight
+#URxvt.depth:                32
+#URxvt.geometry:             64x18
+URxvt.transparent:          true
+URxvt.shading:               30
+#URxvt.blurRadius:           10
+
+#URxvt.fading:                0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            1000
+URxvt.internalBorder:       30
+URxvt.lineSpace:            0
+
+! Fonts
+URxvt*font: xft:Ubuntu Mono:size=16,xft:WenQuanYi Micro Hei Mono:size=16
+URxvt*boldFont: xft:Ubuntu Mono:bold:size=16,xft:WenQuanYi Micro Hei Mono:bold:size=16
+
+! Fix font space
+URxvt*letterSpace: 0
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          google-chrome
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
