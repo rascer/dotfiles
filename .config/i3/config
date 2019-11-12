@@ -194,8 +194,8 @@ bindsym $mod+r mode "resize"
 #start programs / scripts / commands
 exec compton
 exec --no-startup-id xrandr --output "eDP" --gamma "0.95:0.95:1.05"
-exec --no-startup-id feh --bg-fill /home/rasce/Immagini/bg2.jpg
-exec --no-startup-id wal -i /home/rasce/Immagini/bg2.jpg
+exec --no-startup-id feh --bg-fill /home/rasce/Immagini/aa.jpg
+exec --no-startup-id wal -i /home/rasce/Immagini/aa.jpg
 exec --no-startup-id setxkbmap it
 exec_always --no-startup-id /home/rasce/.config/polybar/launch.sh
 exec blueman-applet
