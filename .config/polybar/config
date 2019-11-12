@@ -63,7 +63,7 @@ modules-right = filesystem xbacklight alsa pulseaudio spotify xkeyboard memory c
 tray-position = right
 tray-padding = 2
 ;tray-background = #0063ff
-
+;hsshshsshshihsih
 ;wm-restack = bspwm
 ;wm-restack = i3
 
