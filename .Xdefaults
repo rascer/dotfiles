@@ -11,7 +11,7 @@ Xft.hinting:                true
 #URxvt.geometry:             64x18
 URxvt.transparent:          true
 URxvt.shading:               50
-URxvt.blurRadius:            10
+URxvt.blurRadius:            7
 
 #URxvt.fading:                0
 ! URxvt.urgentOnBell:         true
